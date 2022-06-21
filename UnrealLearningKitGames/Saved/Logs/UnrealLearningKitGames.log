@@ -1165,3 +1165,46 @@ Please use /Niagara/DynamicInputs/Angles/AngleConversion.AngleConversion instead
 [2022.06.21-02.16.28:746][604]LogViewport: Scene viewport resized to 1660x935, mode Windowed.
 [2022.06.21-02.16.28:879][606]LogViewport: Scene viewport resized to 1660x911, mode Windowed.
 [2022.06.21-02.16.29:002][608]LogViewport: Scene viewport resized to 1660x901, mode Windowed.
+[2022.06.21-02.19.42:415][112]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.06.21-02.19.42:430][112]LogContentBrowser: Creating deferred item: NewFolder
+[2022.06.21-02.19.42:438][113]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2022.06.21-02.19.44:347][236]LogContentBrowser: Attempting asset rename: NewFolder -> Levels
+[2022.06.21-02.19.44:348][236]LogContentBrowser: End creating deferred item NewFolder
+[2022.06.21-02.19.55:717][597]LogSlate: Window 'Save Level As' being destroyed
+[2022.06.21-02.19.56:169][597]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2022.06.21-02.19.56:240][597]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.06.21-02.19.56:273][597]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2022.06.21-02.19.56:365][597]LogPackageLocalizationCache: Processed 30 localized package path(s) for 1 prioritized culture(s) in 0.090935 seconds
+[2022.06.21-02.19.56:595][597]LogSavePackage: Moving output files for package: /Game/Levels/TestLevel
+[2022.06.21-02.19.56:595][597]LogSavePackage: Moving '../../../../../Source Tree/Plataformer Unreal 5/UnrealLearningKitGames/Saved/TestLevel3ABD677A4AD91A5C61D842815A8C0BAB.tmp' to '../../../../../Source Tree/Plataformer Unreal 5/UnrealLearningKitGames/Content/Levels/TestLevel.umap'
+[2022.06.21-02.19.56:812][597]LogFileHelpers: Saving map 'TestLevel' took 1.082
+[2022.06.21-02.19.56:812][597]Cmd: MAP LOAD FILE="../../../../../Source Tree/Plataformer Unreal 5/UnrealLearningKitGames/Content/Levels/TestLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.06.21-02.19.56:812][597]LightingResults: New page: Lighting Build
+[2022.06.21-02.19.56:812][597]LoadErrors: New page: Loading map: TestLevel.umap
+[2022.06.21-02.19.56:817][597]LogWorld: UWorld::CleanupWorld for LearningKit_Games_Showcase, bSessionEnded=true, bCleanupResources=true
+[2022.06.21-02.19.56:818][597]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.21-02.19.56:818][597]MapCheck: New page: Map Check
+[2022.06.21-02.19.56:818][597]LightingResults: New page: Lighting Build
+[2022.06.21-02.19.56:825][597]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.06.21-02.19.56:830][597]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2022.06.21-02.19.56:832][597]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2022.06.21-02.19.56:833][597]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.21-02.19.56:945][597]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2022.06.21-02.19.56:952][597]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2022.06.21-02.19.56:982][597]LogAudio: Display: Audio Device (ID: 1) registered with world 'TestLevel'.
+[2022.06.21-02.19.56:982][597]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.06.21-02.19.56:982][597]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.06.21-02.19.56:983][597]LogAIModule: Creating AISystem for world TestLevel
+[2022.06.21-02.19.58:831][597]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.06.21-02.19.58:849][597]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2022.06.21-02.19.58:861][597]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.06.21-02.19.58:861][597]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.096ms to complete.
+[2022.06.21-02.19.58:861][597]LogFileHelpers: Loading map 'TestLevel' took 2.049
+[2022.06.21-02.19.58:865][597]AssetCheck: New page: Asset Save: TestLevel
+[2022.06.21-02.19.58:865][597]LogContentValidation: Display: Validating World /Game/Levels/TestLevel.TestLevel
+[2022.06.21-02.20.03:850][824]LogUObjectGlobals: Warning: Failed to find object 'Class None.Physics'
+[2022.06.21-02.20.10:398][ 90]LogLinker: Warning: Failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode': Can't find file.
+[2022.06.21-02.20.10:398][ 90]LogLinker: Warning: Failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode': Can't find file.
+[2022.06.21-02.20.10:398][ 90]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C'
+[2022.06.21-02.20.11:362][145]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.06.21-02.20.18:662][538]LogSlate: Window 'Project Settings' being destroyed
