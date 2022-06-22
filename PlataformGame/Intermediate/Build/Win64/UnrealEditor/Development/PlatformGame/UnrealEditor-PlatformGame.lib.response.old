@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-PlatformGame.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Source Tree\Plataformer Unreal 5\PlataformGame\Intermediate\Build\Win64\PlatformGameEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\Source Tree\Plataformer Unreal 5\PlataformGame\Intermediate\Build\Win64\UnrealEditor\Development\PlatformGame\MovingPlatform.cpp.obj"
+"D:\Source Tree\Plataformer Unreal 5\PlataformGame\Intermediate\Build\Win64\UnrealEditor\Development\PlatformGame\PlatformGame.cpp.obj"
+"D:\Source Tree\Plataformer Unreal 5\PlataformGame\Intermediate\Build\Win64\UnrealEditor\Development\PlatformGame\MovingPlatform.gen.cpp.obj"
+"D:\Source Tree\Plataformer Unreal 5\PlataformGame\Intermediate\Build\Win64\UnrealEditor\Development\PlatformGame\PlatformGame.init.gen.cpp.obj"
+"D:\Source Tree\Plataformer Unreal 5\PlataformGame\Intermediate\Build\Win64\UnrealEditor\Development\PlatformGame\Default.rc2.res"
+/OUT:"D:\Source Tree\Plataformer Unreal 5\PlataformGame\Intermediate\Build\Win64\UnrealEditor\Development\PlatformGame\UnrealEditor-PlatformGame.lib"

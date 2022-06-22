@@ -1,0 +1,20 @@
+﻿  Using bundled DotNet SDK
+  Log file: C:\Users\Heitor Amor\AppData\Local\UnrealBuildTool\Log.txt
+  Using 'git status' to determine working set for adaptive non-unity build (D:\Source Tree\Plataformer Unreal 5).
+  Building PlatformGameEditor...
+  Using Visual Studio 2022 14.32.31329 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  [Adaptive Build] Excluded from PlatformGame unity file: MovingActor.cpp, MovingPlatform.cpp, PlatformGame.cpp
+  Determining max actions to execute in parallel (12 physical cores, 24 logical cores)
+    Executing up to 12 processes, one per physical core
+    Requested 1.5 GB free memory per action, 12.13 GB available: limiting max parallel actions to 8
+  Building 6 actions with 6 processes...
+  [1/6] Compile PlatformGame.init.gen.cpp
+  [2/6] Compile MovingActor.cpp
+  [3/6] Compile MovingActor.gen.cpp
+  [4/6] Link UnrealEditor-PlatformGame.lib
+     Creating library D:\Source Tree\Plataformer Unreal 5\PlataformGame\Intermediate\Build\Win64\UnrealEditor\Development\PlatformGame\UnrealEditor-PlatformGame.lib and object D:\Source Tree\Plataformer Unreal 5\PlataformGame\Intermediate\Build\Win64\UnrealEditor\Development\PlatformGame\UnrealEditor-PlatformGame.exp
+  [5/6] Link UnrealEditor-PlatformGame.dll
+     Creating library D:\Source Tree\Plataformer Unreal 5\PlataformGame\Intermediate\Build\Win64\UnrealEditor\Development\PlatformGame\UnrealEditor-PlatformGame.suppressed.lib and object D:\Source Tree\Plataformer Unreal 5\PlataformGame\Intermediate\Build\Win64\UnrealEditor\Development\PlatformGame\UnrealEditor-PlatformGame.suppressed.exp
+  [6/6] WriteMetadata PlatformGameEditor.target
+  Total time in Parallel executor: 73.26 seconds
+  Total execution time: 74.18 seconds

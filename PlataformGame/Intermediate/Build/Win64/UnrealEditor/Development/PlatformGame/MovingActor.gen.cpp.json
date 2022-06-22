@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\source tree\\plataformer unreal 5\\plataformgame\\intermediate\\build\\win64\\unrealeditor\\inc\\platformgame\\movingactor.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\source tree\\plataformer unreal 5\\plataformgame\\intermediate\\build\\win64\\platformgameeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\source tree\\plataformer unreal 5\\plataformgame\\intermediate\\build\\win64\\unrealeditor\\development\\platformgame\\definitions.platformgame.h",
+            "d:\\source tree\\plataformer unreal 5\\plataformgame\\source\\platformgame\\movingactor.h",
+            "d:\\source tree\\plataformer unreal 5\\plataformgame\\intermediate\\build\\win64\\unrealeditor\\inc\\platformgame\\movingactor.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

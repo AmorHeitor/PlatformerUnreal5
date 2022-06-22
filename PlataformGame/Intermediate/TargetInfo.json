@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "PlatformGame",
+			"Path": "D:\\Source Tree\\Plataformer Unreal 5\\PlataformGame\\Source\\PlatformGame.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "PlatformGameEditor",
+			"Path": "D:\\Source Tree\\Plataformer Unreal 5\\PlataformGame\\Source\\PlatformGameEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

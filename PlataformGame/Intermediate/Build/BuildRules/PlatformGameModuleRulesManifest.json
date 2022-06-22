@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\Source Tree\\Plataformer Unreal 5\\PlataformGame\\Source\\PlatformGame\\PlatformGame.Build.cs",
+		"D:\\Source Tree\\Plataformer Unreal 5\\PlataformGame\\Source\\PlatformGame.Target.cs",
+		"D:\\Source Tree\\Plataformer Unreal 5\\PlataformGame\\Source\\PlatformGameEditor.Target.cs"
+	],
+	"EngineVersion": "5.0.2"
+}
