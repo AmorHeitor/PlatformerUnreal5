@@ -1789,3 +1789,580 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.06.22-22.39.26:908][289]LogSavePackage: Moving '../../../../../Source Tree/Plataformer Unreal 5/PlataformGame/Saved/BP_MovingBlock9EB468AD47064DD211B5719D1E786AAA.tmp' to '../../../../../Source Tree/Plataformer Unreal 5/PlataformGame/Content/Blueprints/BP_MovingBlock.uasset'
 [2022.06.22-22.39.26:943][289]AssetCheck: New page: Asset Save: BP_MovingBlock
 [2022.06.22-22.39.26:943][289]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_MovingBlock.BP_MovingBlock
+[2022.06.22-22.48.56:884][140]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2022.06.22-22.48.57:034][140]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Levels/TestLevel_Auto3
+[2022.06.22-22.48.57:034][140]LogSavePackage: Moving '../../../../../Source Tree/Plataformer Unreal 5/PlataformGame/Saved/TestLevel_Auto38CC77D7D4DE79B1BB6693EB6AABC5A93.tmp' to '../../../../../Source Tree/Plataformer Unreal 5/PlataformGame/Saved/Autosaves/Game/Levels/TestLevel_Auto3.umap'
+[2022.06.22-22.48.57:041][140]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/TestLevel' took 0.209
+[2022.06.22-22.48.57:042][140]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.209
+[2022.06.22-22.49.29:004][850]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2022.06.22-22.49.30:285][850]LogSlate: Window 'Save Content' being destroyed
+[2022.06.22-22.49.30:402][850]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestLevel" FILE="../../../../../Source Tree/Plataformer Unreal 5/PlataformGame/Content/Levels/TestLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.06.22-22.49.30:445][850]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2022.06.22-22.49.30:555][850]LogSavePackage: Moving output files for package: /Game/Levels/TestLevel
+[2022.06.22-22.49.30:561][850]LogSavePackage: Moving '../../../../../Source Tree/Plataformer Unreal 5/PlataformGame/Saved/TestLevel470EB4054D931F3E849E029FA811DA09.tmp' to '../../../../../Source Tree/Plataformer Unreal 5/PlataformGame/Content/Levels/TestLevel.umap'
+[2022.06.22-22.49.30:578][850]LogFileHelpers: Saving map 'TestLevel' took 0.177
+[2022.06.22-22.49.30:605][850]AssetCheck: New page: Asset Save: TestLevel
+[2022.06.22-22.49.30:605][850]LogContentValidation: Display: Validating World /Game/Levels/TestLevel.TestLevel
+[2022.06.22-22.51.32:531][250]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (2- Realtek High Definition Audio), InstanceID=1
+[2022.06.22-22.51.32:556][251]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=28544
+[2022.06.22-22.51.32:587][252]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{da017b06-a878-482e-b3c3-7652ea1ba036}, Name=Speakers (2- Realtek High Definition Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=37.75
+[2022.06.22-22.51.32:587][252]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2022.06.22-22.51.32:599][253]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2022.06.22-23.18.50:326][170]LogDerivedDataCache: C:/Users/Heitor Amor/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.220 and deleted 0 file(s) with total size 0 MiB.
+[2022.06.23-00.18.50:323][606]LogDerivedDataCache: C:/Users/Heitor Amor/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.202 and deleted 0 file(s) with total size 0 MiB.
+[2022.06.23-00.32.29:407][435]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Headphones (2- WH-1000XM4 Stereo), InstanceID=1
+[2022.06.23-00.32.29:407][435]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=28544
+[2022.06.23-00.32.29:507][439]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=44100, DeviceID={0.0.0.00000000}.{ad34af25-5530-4856-9234-34457f4ac0f6}, Name=Headphones (2- WH-1000XM4 Stereo)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=95.68
+[2022.06.23-00.32.29:507][439]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2022.06.23-00.32.29:522][440]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2022.06.23-01.18.50:342][725]LogDerivedDataCache: C:/Users/Heitor Amor/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.220 and deleted 0 file(s) with total size 0 MiB.
+[2022.06.23-01.27.11:942][380]LogSlate: Window 'Pick Parent Class' being destroyed
+[2022.06.23-01.27.11:962][380]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2022.06.23-01.27.11:971][380]LogContentBrowser: Creating deferred item: NewBlueprint
+[2022.06.23-01.27.11:988][381]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2022.06.23-01.27.18:705][746]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_SplinePlatform
+[2022.06.23-01.27.18:726][746]LogContentBrowser: End creating deferred item NewBlueprint
+[2022.06.23-01.27.19:487][789]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_SplinePlatform.BP_SplinePlatform
+[2022.06.23-01.27.19:489][789]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.06.23-01.27.20:306][789]LogViewport: Scene viewport resized to 1141x725, mode Windowed.
+[2022.06.23-01.27.22:435][893]LogViewport: Scene viewport resized to 1139x743, mode Windowed.
+[2022.06.23-01.27.22:581][894]LogViewport: Scene viewport resized to 1141x720, mode Windowed.
+[2022.06.23-01.27.24:196][944]LogViewport: Scene viewport resized to 1525x1013, mode Windowed.
+[2022.06.23-01.27.45:731][ 36]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.DefaultSceneRoot' is not static  (in blueprint "BP_SplinePlatform"), cannot attach '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.SplineMesh' which is static to it. Aborting.
+[2022.06.23-01.27.45:768][ 36]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.DefaultSceneRoot' is not static  (in blueprint "BP_SplinePlatform"), cannot attach '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.SplineMesh' which is static to it. Aborting.
+[2022.06.23-01.27.49:173][187]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.DefaultSceneRoot' is not static  (in blueprint "BP_SplinePlatform"), cannot attach '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.Path' which is static to it. Aborting.
+[2022.06.23-01.27.49:196][187]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.DefaultSceneRoot' is not static  (in blueprint "BP_SplinePlatform"), cannot attach '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.Path' which is static to it. Aborting.
+[2022.06.23-01.29.30:980][904]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.DefaultSceneRoot' is not static  (in blueprint "BP_SplinePlatform"), cannot attach '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.Path' which is static to it. Aborting.
+[2022.06.23-01.29.38:361][299]BlueprintLog: New page: Compile BP_SplinePlatform
+[2022.06.23-01.29.38:363][299]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.DefaultSceneRoot' is not static  (in blueprint "BP_SplinePlatform"), cannot attach '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.Path' which is static to it. Aborting.
+[2022.06.23-01.29.38:521][299]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2022.06.23-01.29.38:524][299]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.DefaultSceneRoot' is not static  (in blueprint "BP_SplinePlatform"), cannot attach '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.Path' which is static to it. Aborting.
+[2022.06.23-01.29.38:526][299]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.DefaultSceneRoot' is not static  (in blueprint "BP_SplinePlatform"), cannot attach '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.Path' which is static to it. Aborting.
+[2022.06.23-01.29.38:588][299]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_SplinePlatform" FILE="../../../../../Source Tree/Plataformer Unreal 5/PlataformGame/Content/Blueprints/BP_SplinePlatform.uasset" SILENT=true
+[2022.06.23-01.29.38:593][299]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_SplinePlatform
+[2022.06.23-01.29.38:593][299]LogSavePackage: Moving '../../../../../Source Tree/Plataformer Unreal 5/PlataformGame/Saved/BP_SplinePlatformCE9D8088455B29BA9453B7AE5294A746.tmp' to '../../../../../Source Tree/Plataformer Unreal 5/PlataformGame/Content/Blueprints/BP_SplinePlatform.uasset'
+[2022.06.23-01.29.38:615][299]AssetCheck: New page: Asset Save: BP_SplinePlatform
+[2022.06.23-01.29.38:615][299]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_SplinePlatform.BP_SplinePlatform
+[2022.06.23-01.29.53:213][847]LogContentBrowser: Deferred new asset file creation: BP_MovingBlock1
+[2022.06.23-01.29.53:222][847]LogContentBrowser: Creating deferred item: BP_MovingBlock1
+[2022.06.23-01.29.53:239][848]LogContentBrowser: Renaming the item being created (Deferred Item: BP_MovingBlock1).
+[2022.06.23-01.30.00:044][191]LogContentBrowser: Attempting asset rename: BP_MovingBlock1 -> BP_Block
+[2022.06.23-01.30.00:134][191]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2022.06.23-01.30.00:150][191]LogContentBrowser: End creating deferred item BP_MovingBlock1
+[2022.06.23-01.30.01:053][237]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Block.BP_Block
+[2022.06.23-01.30.01:054][237]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.06.23-01.30.18:924][ 35]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.06.23-01.30.34:429][820]BlueprintLog: New page: Compile BP_Block
+[2022.06.23-01.30.34:512][820]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2022.06.23-01.30.34:629][820]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Block" FILE="../../../../../Source Tree/Plataformer Unreal 5/PlataformGame/Content/Blueprints/BP_Block.uasset" SILENT=true
+[2022.06.23-01.30.34:654][820]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Block
+[2022.06.23-01.30.34:654][820]LogSavePackage: Moving '../../../../../Source Tree/Plataformer Unreal 5/PlataformGame/Saved/BP_Block9A7DF47D43E401944E18D98BD8E50D47.tmp' to '../../../../../Source Tree/Plataformer Unreal 5/PlataformGame/Content/Blueprints/BP_Block.uasset'
+[2022.06.23-01.30.34:677][820]AssetCheck: New page: Asset Save: BP_Block
+[2022.06.23-01.30.34:677][820]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Block.BP_Block
+[2022.06.23-01.31.02:753][285]BlueprintLog: New page: Compile BP_Block
+[2022.06.23-01.31.02:837][285]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2022.06.23-01.31.02:957][285]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Block" FILE="../../../../../Source Tree/Plataformer Unreal 5/PlataformGame/Content/Blueprints/BP_Block.uasset" SILENT=true
+[2022.06.23-01.31.02:983][285]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Block
+[2022.06.23-01.31.02:984][285]LogSavePackage: Moving '../../../../../Source Tree/Plataformer Unreal 5/PlataformGame/Saved/BP_Block94DFB4D643A991FAB421EFBB67AE8ECC.tmp' to '../../../../../Source Tree/Plataformer Unreal 5/PlataformGame/Content/Blueprints/BP_Block.uasset'
+[2022.06.23-01.31.02:999][285]AssetCheck: New page: Asset Save: BP_Block
+[2022.06.23-01.31.02:999][285]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Block.BP_Block
+[2022.06.23-01.31.32:992][781]LogSlate: Window 'Delete Variable' being destroyed
+[2022.06.23-01.31.52:966][828]LogSlate: Took 0.000399 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2022.06.23-01.32.13:773][938]BlueprintLog: New page: Compile BP_Block
+[2022.06.23-01.32.13:861][938]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2022.06.23-01.32.13:977][938]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Block" FILE="../../../../../Source Tree/Plataformer Unreal 5/PlataformGame/Content/Blueprints/BP_Block.uasset" SILENT=true
+[2022.06.23-01.32.13:986][938]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Block
+[2022.06.23-01.32.13:987][938]LogSavePackage: Moving '../../../../../Source Tree/Plataformer Unreal 5/PlataformGame/Saved/BP_BlockD67EFAA14188536B4B4418B98AB7EBCB.tmp' to '../../../../../Source Tree/Plataformer Unreal 5/PlataformGame/Content/Blueprints/BP_Block.uasset'
+[2022.06.23-01.32.14:006][938]AssetCheck: New page: Asset Save: BP_Block
+[2022.06.23-01.32.14:006][938]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Block.BP_Block
+[2022.06.23-01.32.18:665][168]BlueprintLog: New page: Compile BP_Block
+[2022.06.23-01.32.18:743][168]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2022.06.23-01.32.18:843][168]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Block" FILE="../../../../../Source Tree/Plataformer Unreal 5/PlataformGame/Content/Blueprints/BP_Block.uasset" SILENT=true
+[2022.06.23-01.32.18:866][168]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Block
+[2022.06.23-01.32.18:867][168]LogSavePackage: Moving '../../../../../Source Tree/Plataformer Unreal 5/PlataformGame/Saved/BP_Block74412DDF4F8B669706FC069E96769706.tmp' to '../../../../../Source Tree/Plataformer Unreal 5/PlataformGame/Content/Blueprints/BP_Block.uasset'
+[2022.06.23-01.32.18:881][168]AssetCheck: New page: Asset Save: BP_Block
+[2022.06.23-01.32.18:882][168]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Block.BP_Block
+[2022.06.23-01.34.04:337][825]BlueprintLog: New page: Compile BP_Block
+[2022.06.23-01.34.04:417][825]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2022.06.23-01.34.04:516][825]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Block" FILE="../../../../../Source Tree/Plataformer Unreal 5/PlataformGame/Content/Blueprints/BP_Block.uasset" SILENT=true
+[2022.06.23-01.34.04:525][825]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Block
+[2022.06.23-01.34.04:526][825]LogSavePackage: Moving '../../../../../Source Tree/Plataformer Unreal 5/PlataformGame/Saved/BP_Block147AD9DF48E71FC625DA169E8DA72030.tmp' to '../../../../../Source Tree/Plataformer Unreal 5/PlataformGame/Content/Blueprints/BP_Block.uasset'
+[2022.06.23-01.34.04:552][825]AssetCheck: New page: Asset Save: BP_Block
+[2022.06.23-01.34.04:552][825]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Block.BP_Block
+[2022.06.23-01.35.00:508][813]BlueprintLog: New page: Compile BP_Block
+[2022.06.23-01.35.00:588][813]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2022.06.23-01.35.00:711][813]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Block" FILE="../../../../../Source Tree/Plataformer Unreal 5/PlataformGame/Content/Blueprints/BP_Block.uasset" SILENT=true
+[2022.06.23-01.35.00:720][813]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Block
+[2022.06.23-01.35.00:721][813]LogSavePackage: Moving '../../../../../Source Tree/Plataformer Unreal 5/PlataformGame/Saved/BP_Block03CC1BCB49A44CA346EB199274FAD2A3.tmp' to '../../../../../Source Tree/Plataformer Unreal 5/PlataformGame/Content/Blueprints/BP_Block.uasset'
+[2022.06.23-01.35.00:738][813]AssetCheck: New page: Asset Save: BP_Block
+[2022.06.23-01.35.00:738][813]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Block.BP_Block
+[2022.06.23-01.36.32:704][819]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.DefaultSceneRoot' is not static  (in blueprint "BP_SplinePlatform"), cannot attach '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.Path' which is static to it. Aborting.
+[2022.06.23-01.36.32:705][819]LogViewport: Scene viewport resized to 1141x725, mode Windowed.
+[2022.06.23-01.36.34:130][884]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.DefaultSceneRoot' is not static  (in blueprint "BP_SplinePlatform"), cannot attach '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.Path' which is static to it. Aborting.
+[2022.06.23-01.36.34:152][885]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.DefaultSceneRoot' is not static  (in blueprint "BP_SplinePlatform"), cannot attach '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.Path' which is static to it. Aborting.
+[2022.06.23-01.36.34:172][886]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.DefaultSceneRoot' is not static  (in blueprint "BP_SplinePlatform"), cannot attach '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.Path' which is static to it. Aborting.
+[2022.06.23-01.36.34:193][887]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.DefaultSceneRoot' is not static  (in blueprint "BP_SplinePlatform"), cannot attach '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.Path' which is static to it. Aborting.
+[2022.06.23-01.36.34:214][888]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.DefaultSceneRoot' is not static  (in blueprint "BP_SplinePlatform"), cannot attach '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.Path' which is static to it. Aborting.
+[2022.06.23-01.36.34:440][900]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.DefaultSceneRoot' is not static  (in blueprint "BP_SplinePlatform"), cannot attach '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.Path' which is static to it. Aborting.
+[2022.06.23-01.36.34:461][901]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.DefaultSceneRoot' is not static  (in blueprint "BP_SplinePlatform"), cannot attach '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.Path' which is static to it. Aborting.
+[2022.06.23-01.36.34:481][902]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.DefaultSceneRoot' is not static  (in blueprint "BP_SplinePlatform"), cannot attach '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.Path' which is static to it. Aborting.
+[2022.06.23-01.36.34:503][903]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.DefaultSceneRoot' is not static  (in blueprint "BP_SplinePlatform"), cannot attach '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.Path' which is static to it. Aborting.
+[2022.06.23-01.36.34:737][914]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.DefaultSceneRoot' is not static  (in blueprint "BP_SplinePlatform"), cannot attach '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.Path' which is static to it. Aborting.
+[2022.06.23-01.36.34:905][922]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.DefaultSceneRoot' is not static  (in blueprint "BP_SplinePlatform"), cannot attach '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.Path' which is static to it. Aborting.
+[2022.06.23-01.36.34:926][923]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.DefaultSceneRoot' is not static  (in blueprint "BP_SplinePlatform"), cannot attach '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.Path' which is static to it. Aborting.
+[2022.06.23-01.36.34:947][924]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.DefaultSceneRoot' is not static  (in blueprint "BP_SplinePlatform"), cannot attach '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.Path' which is static to it. Aborting.
+[2022.06.23-01.36.34:968][925]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.DefaultSceneRoot' is not static  (in blueprint "BP_SplinePlatform"), cannot attach '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.Path' which is static to it. Aborting.
+[2022.06.23-01.36.35:007][927]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.DefaultSceneRoot' is not static  (in blueprint "BP_SplinePlatform"), cannot attach '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.Path' which is static to it. Aborting.
+[2022.06.23-01.36.35:048][929]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.DefaultSceneRoot' is not static  (in blueprint "BP_SplinePlatform"), cannot attach '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.Path' which is static to it. Aborting.
+[2022.06.23-01.36.35:069][930]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.DefaultSceneRoot' is not static  (in blueprint "BP_SplinePlatform"), cannot attach '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.Path' which is static to it. Aborting.
+[2022.06.23-01.36.35:089][931]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.DefaultSceneRoot' is not static  (in blueprint "BP_SplinePlatform"), cannot attach '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.Path' which is static to it. Aborting.
+[2022.06.23-01.36.35:111][932]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.DefaultSceneRoot' is not static  (in blueprint "BP_SplinePlatform"), cannot attach '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.Path' which is static to it. Aborting.
+[2022.06.23-01.36.35:131][933]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.DefaultSceneRoot' is not static  (in blueprint "BP_SplinePlatform"), cannot attach '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.Path' which is static to it. Aborting.
+[2022.06.23-01.36.35:154][934]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.DefaultSceneRoot' is not static  (in blueprint "BP_SplinePlatform"), cannot attach '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.Path' which is static to it. Aborting.
+[2022.06.23-01.36.35:174][935]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.DefaultSceneRoot' is not static  (in blueprint "BP_SplinePlatform"), cannot attach '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.Path' which is static to it. Aborting.
+[2022.06.23-01.36.35:194][936]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.DefaultSceneRoot' is not static  (in blueprint "BP_SplinePlatform"), cannot attach '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.Path' which is static to it. Aborting.
+[2022.06.23-01.36.35:217][937]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.DefaultSceneRoot' is not static  (in blueprint "BP_SplinePlatform"), cannot attach '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.Path' which is static to it. Aborting.
+[2022.06.23-01.36.35:237][938]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.DefaultSceneRoot' is not static  (in blueprint "BP_SplinePlatform"), cannot attach '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.Path' which is static to it. Aborting.
+[2022.06.23-01.36.35:257][939]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.DefaultSceneRoot' is not static  (in blueprint "BP_SplinePlatform"), cannot attach '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.Path' which is static to it. Aborting.
+[2022.06.23-01.36.35:277][940]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.DefaultSceneRoot' is not static  (in blueprint "BP_SplinePlatform"), cannot attach '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.Path' which is static to it. Aborting.
+[2022.06.23-01.36.35:501][952]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.DefaultSceneRoot' is not static  (in blueprint "BP_SplinePlatform"), cannot attach '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.Path' which is static to it. Aborting.
+[2022.06.23-01.36.35:522][953]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.DefaultSceneRoot' is not static  (in blueprint "BP_SplinePlatform"), cannot attach '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.Path' which is static to it. Aborting.
+[2022.06.23-01.36.35:545][954]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.DefaultSceneRoot' is not static  (in blueprint "BP_SplinePlatform"), cannot attach '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.Path' which is static to it. Aborting.
+[2022.06.23-01.36.35:569][955]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.DefaultSceneRoot' is not static  (in blueprint "BP_SplinePlatform"), cannot attach '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.Path' which is static to it. Aborting.
+[2022.06.23-01.36.35:590][956]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.DefaultSceneRoot' is not static  (in blueprint "BP_SplinePlatform"), cannot attach '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.Path' which is static to it. Aborting.
+[2022.06.23-01.36.35:610][957]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.DefaultSceneRoot' is not static  (in blueprint "BP_SplinePlatform"), cannot attach '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.Path' which is static to it. Aborting.
+[2022.06.23-01.36.37:046][ 29]LogEditorTransaction: Undo Modify Component(s)
+[2022.06.23-01.36.37:067][ 29]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.DefaultSceneRoot' is not static  (in blueprint "BP_SplinePlatform"), cannot attach '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.Path' which is static to it. Aborting.
+[2022.06.23-01.36.37:170][ 29]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.DefaultSceneRoot' is not static  (in blueprint "BP_SplinePlatform"), cannot attach '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.Path' which is static to it. Aborting.
+[2022.06.23-01.36.38:288][ 65]BlueprintLog: New page: Compile BP_SplinePlatform
+[2022.06.23-01.36.38:311][ 65]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.DefaultSceneRoot' is not static  (in blueprint "BP_SplinePlatform"), cannot attach '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.Path' which is static to it. Aborting.
+[2022.06.23-01.36.38:387][ 65]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2022.06.23-01.36.38:393][ 65]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.DefaultSceneRoot' is not static  (in blueprint "BP_SplinePlatform"), cannot attach '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.Path' which is static to it. Aborting.
+[2022.06.23-01.36.38:400][ 65]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.DefaultSceneRoot' is not static  (in blueprint "BP_SplinePlatform"), cannot attach '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.Path' which is static to it. Aborting.
+[2022.06.23-01.36.38:451][ 65]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.DefaultSceneRoot' is not static  (in blueprint "BP_SplinePlatform"), cannot attach '/Engine/Transient.World_10:PersistentLevel.BP_SplinePlatform_C_0.Path' which is static to it. Aborting.
+[2022.06.23-01.36.46:462][411]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2022.06.23-01.36.46:462][411]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.23-01.36.48:138][456]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.06.23-01.36.48:138][456]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2022.06.23-01.36.48:138][456]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.23-01.36.48:821][478]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.06.23-01.36.48:821][478]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2022.06.23-01.36.48:821][478]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.23-01.36.49:586][503]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.06.23-01.36.49:586][503]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2022.06.23-01.36.49:586][503]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.23-01.36.50:572][539]LogSlate: Window 'EN_TypesOfBlock' being destroyed
+[2022.06.23-01.37.28:601][349]BlueprintLog: New page: Compile BP_SplinePlatform
+[2022.06.23-01.37.28:697][349]LogProperty: Warning: Serialized Class /Script/Engine.SplineMeshComponent for a property of Class /Script/Engine.SplineComponent. Reference will be nullptred.
+    Property = ObjectProperty /Game/Blueprints/BP_SplinePlatform.BP_SplinePlatform_C:Path
+    Item = SplineMeshComponent /Engine/Transient.World_10:PersistentLevel.REINST_BP_SplinePlatform_C_1.TRASH_SplineMeshComponent_10
+[2022.06.23-01.37.28:947][349]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2022.06.23-01.37.29:045][349]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_SplinePlatform" FILE="../../../../../Source Tree/Plataformer Unreal 5/PlataformGame/Content/Blueprints/BP_SplinePlatform.uasset" SILENT=true
+[2022.06.23-01.37.29:049][349]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_SplinePlatform
+[2022.06.23-01.37.29:050][349]LogSavePackage: Moving '../../../../../Source Tree/Plataformer Unreal 5/PlataformGame/Saved/BP_SplinePlatformD45CE8D2432B4907C9B4519662BF8F1F.tmp' to '../../../../../Source Tree/Plataformer Unreal 5/PlataformGame/Content/Blueprints/BP_SplinePlatform.uasset'
+[2022.06.23-01.37.29:077][349]AssetCheck: New page: Asset Save: BP_SplinePlatform
+[2022.06.23-01.37.29:078][349]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_SplinePlatform.BP_SplinePlatform
+[2022.06.23-01.37.49:804][398]BlueprintLog: New page: Compile BP_Block
+[2022.06.23-01.37.49:902][398]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2022.06.23-01.37.50:015][398]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Block" FILE="../../../../../Source Tree/Plataformer Unreal 5/PlataformGame/Content/Blueprints/BP_Block.uasset" SILENT=true
+[2022.06.23-01.37.50:027][398]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Block
+[2022.06.23-01.37.50:028][398]LogSavePackage: Moving '../../../../../Source Tree/Plataformer Unreal 5/PlataformGame/Saved/BP_BlockC18D70C9433275A3E3EE1B88B74EEA3F.tmp' to '../../../../../Source Tree/Plataformer Unreal 5/PlataformGame/Content/Blueprints/BP_Block.uasset'
+[2022.06.23-01.37.50:044][398]AssetCheck: New page: Asset Save: BP_Block
+[2022.06.23-01.37.50:044][398]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Block.BP_Block
+[2022.06.23-01.37.56:878][761]BlueprintLog: New page: Compile BP_Block
+[2022.06.23-01.37.56:929][761]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2022.06.23-01.37.57:043][761]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Block" FILE="../../../../../Source Tree/Plataformer Unreal 5/PlataformGame/Content/Blueprints/BP_Block.uasset" SILENT=true
+[2022.06.23-01.37.57:054][761]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Block
+[2022.06.23-01.37.57:055][761]LogSavePackage: Moving '../../../../../Source Tree/Plataformer Unreal 5/PlataformGame/Saved/BP_Block66E8BCA24D09BAE13BA2F59DB6DB2D26.tmp' to '../../../../../Source Tree/Plataformer Unreal 5/PlataformGame/Content/Blueprints/BP_Block.uasset'
+[2022.06.23-01.37.57:070][761]AssetCheck: New page: Asset Save: BP_Block
+[2022.06.23-01.37.57:070][761]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Block.BP_Block
+[2022.06.23-01.40.23:929][549]BlueprintLog: New page: Compile BP_Block
+[2022.06.23-01.40.23:980][549]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2022.06.23-01.40.24:133][549]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Block" FILE="../../../../../Source Tree/Plataformer Unreal 5/PlataformGame/Content/Blueprints/BP_Block.uasset" SILENT=true
+[2022.06.23-01.40.24:162][549]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Block
+[2022.06.23-01.40.24:163][549]LogSavePackage: Moving '../../../../../Source Tree/Plataformer Unreal 5/PlataformGame/Saved/BP_Block5751D1EC408B3543FDA76D93B362DA0E.tmp' to '../../../../../Source Tree/Plataformer Unreal 5/PlataformGame/Content/Blueprints/BP_Block.uasset'
+[2022.06.23-01.40.24:180][549]AssetCheck: New page: Asset Save: BP_Block
+[2022.06.23-01.40.24:181][549]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Block.BP_Block
+[2022.06.23-01.41.10:111][ 72]BlueprintLog: New page: Compile BP_Block
+[2022.06.23-01.41.10:163][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2022.06.23-01.41.10:263][ 72]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Block" FILE="../../../../../Source Tree/Plataformer Unreal 5/PlataformGame/Content/Blueprints/BP_Block.uasset" SILENT=true
+[2022.06.23-01.41.10:275][ 72]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Block
+[2022.06.23-01.41.10:277][ 72]LogSavePackage: Moving '../../../../../Source Tree/Plataformer Unreal 5/PlataformGame/Saved/BP_BlockACA113CA4CCCB3CA5ADE83AA553671F1.tmp' to '../../../../../Source Tree/Plataformer Unreal 5/PlataformGame/Content/Blueprints/BP_Block.uasset'
+[2022.06.23-01.41.10:291][ 72]AssetCheck: New page: Asset Save: BP_Block
+[2022.06.23-01.41.10:291][ 72]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Block.BP_Block
+[2022.06.23-01.41.40:003][685]LogSlate: Window 'BP_Block' being destroyed
+[2022.06.23-01.41.45:106][968]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SplinePlatform.BP_SplinePlatform_C
+[2022.06.23-01.41.45:106][968]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SplinePlatform.BP_SplinePlatform_C
+[2022.06.23-01.41.45:107][968]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SplinePlatform.BP_SplinePlatform as actor: BP_SplinePlatform_C /Game/Levels/TestLevel.TestLevel:PersistentLevel.BP_SplinePlatform_C_0
+[2022.06.23-01.41.45:108][968]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SplinePlatform.BP_SplinePlatform as actor: BP_SplinePlatform_C /Game/Levels/TestLevel.TestLevel:PersistentLevel.BP_SplinePlatform_C_0
+[2022.06.23-01.41.45:593][995]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SplinePlatform.BP_SplinePlatform_C
+[2022.06.23-01.41.45:594][995]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_SplinePlatform.BP_SplinePlatform_C
+[2022.06.23-01.41.45:595][995]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SplinePlatform.BP_SplinePlatform as actor: BP_SplinePlatform_C /Game/Levels/TestLevel.TestLevel:PersistentLevel.BP_SplinePlatform_C_1
+[2022.06.23-01.41.45:596][995]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_SplinePlatform.BP_SplinePlatform as actor: BP_SplinePlatform_C /Game/Levels/TestLevel.TestLevel:PersistentLevel.BP_SplinePlatform_C_1
+[2022.06.23-01.41.46:733][ 52]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2022.06.23-01.42.12:416][577]Cmd: SELECT NONE
+[2022.06.23-01.42.16:076][765]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestLevel" FILE="../../../../../Source Tree/Plataformer Unreal 5/PlataformGame/Content/Levels/TestLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.06.23-01.42.16:110][765]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2022.06.23-01.42.16:251][765]LogSavePackage: Moving output files for package: /Game/Levels/TestLevel
+[2022.06.23-01.42.16:252][765]LogSavePackage: Moving '../../../../../Source Tree/Plataformer Unreal 5/PlataformGame/Saved/TestLevel8DE37C9143C70020EADD589DF1D31CB2.tmp' to '../../../../../Source Tree/Plataformer Unreal 5/PlataformGame/Content/Levels/TestLevel.umap'
+[2022.06.23-01.42.16:282][765]AssetCheck: New page: Asset Save: TestLevel
+[2022.06.23-01.42.16:282][765]LogContentValidation: Display: Validating World /Game/Levels/TestLevel.TestLevel
+[2022.06.23-01.42.19:284][932]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_Block.BP_Block_C
+[2022.06.23-01.42.19:284][932]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_Block.BP_Block_C
+[2022.06.23-01.42.19:287][932]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_Block.BP_Block as actor: BP_Block_C /Game/Levels/TestLevel.TestLevel:PersistentLevel.BP_Block_C_0
+[2022.06.23-01.42.19:290][932]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_Block.BP_Block as actor: BP_Block_C /Game/Levels/TestLevel.TestLevel:PersistentLevel.BP_Block_C_0
+[2022.06.23-01.42.20:993][ 39]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_Block.BP_Block_C
+[2022.06.23-01.42.20:993][ 39]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_Block.BP_Block_C
+[2022.06.23-01.42.20:996][ 39]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_Block.BP_Block as actor: BP_Block_C /Game/Levels/TestLevel.TestLevel:PersistentLevel.BP_Block_C_1
+[2022.06.23-01.42.21:000][ 39]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_Block.BP_Block as actor: BP_Block_C /Game/Levels/TestLevel.TestLevel:PersistentLevel.BP_Block_C_1
+[2022.06.23-01.43.22:201][684]BlueprintLog: New page: Compile BP_Block
+[2022.06.23-01.43.22:261][684]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2022.06.23-01.43.22:363][684]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Block" FILE="../../../../../Source Tree/Plataformer Unreal 5/PlataformGame/Content/Blueprints/BP_Block.uasset" SILENT=true
+[2022.06.23-01.43.22:375][684]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Block
+[2022.06.23-01.43.22:376][684]LogSavePackage: Moving '../../../../../Source Tree/Plataformer Unreal 5/PlataformGame/Saved/BP_BlockF9AE2C6D4C7D32C322EFAE82868DAC4D.tmp' to '../../../../../Source Tree/Plataformer Unreal 5/PlataformGame/Content/Blueprints/BP_Block.uasset'
+[2022.06.23-01.43.22:390][684]AssetCheck: New page: Asset Save: BP_Block
+[2022.06.23-01.43.22:390][684]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Block.BP_Block
+[2022.06.23-01.43.30:561][169]BlueprintLog: New page: Compile BP_Block
+[2022.06.23-01.43.30:621][169]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2022.06.23-01.43.30:728][169]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Block" FILE="../../../../../Source Tree/Plataformer Unreal 5/PlataformGame/Content/Blueprints/BP_Block.uasset" SILENT=true
+[2022.06.23-01.43.30:739][169]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Block
+[2022.06.23-01.43.30:740][169]LogSavePackage: Moving '../../../../../Source Tree/Plataformer Unreal 5/PlataformGame/Saved/BP_BlockE5C70DFC4E5FBD16E4533AA4CAEF9844.tmp' to '../../../../../Source Tree/Plataformer Unreal 5/PlataformGame/Content/Blueprints/BP_Block.uasset'
+[2022.06.23-01.43.30:754][169]AssetCheck: New page: Asset Save: BP_Block
+[2022.06.23-01.43.30:755][169]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Block.BP_Block
+[2022.06.23-01.43.40:781][737]LogTurnkeySupport: Display: Adding device menu item for DESKTOPHEITOR
+[2022.06.23-01.43.40:781][737]LogTurnkeySupport: Running Turnkey device detection: ' -ScriptsForProject="D:/Source Tree/Plataformer Unreal 5/PlataformGame/PlatformGame.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="D:/Source Tree/Plataformer Unreal 5/PlataformGame/Intermediate/TurnkeyReport_1.log" -log="D:/Source Tree/Plataformer Unreal 5/PlataformGame/Intermediate/TurnkeyLog_1.log" -project="D:/Source Tree/Plataformer Unreal 5/PlataformGame/PlatformGame.uproject"  -Device=Win64@DESKTOPHEITOR'
+[2022.06.23-01.43.40:782][737]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""D:/Epic Store/UE_5.0/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="D:/Source Tree/Plataformer Unreal 5/PlataformGame/PlatformGame.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="D:/Source Tree/Plataformer Unreal 5/PlataformGame/Intermediate/TurnkeyReport_1.log" -log="D:/Source Tree/Plataformer Unreal 5/PlataformGame/Intermediate/TurnkeyLog_1.log" -project="D:/Source Tree/Plataformer Unreal 5/PlataformGame/PlatformGame.uproject"  -Device=Win64@DESKTOPHEITOR" -nocompile ]
+[2022.06.23-01.43.41:828][798]LogTurnkeySupport: Completed device detection: Code = 0
+[2022.06.23-01.43.41:828][798]LogTurnkeySupport: Turnkey Device: Win64@DESKTOPHEITOR: (Name=DESKTOPHEITOR, Status=Valid, Installed=10.0.19044.0, MinAllowed=10.0.18362.0, MaxAllowed=, Flags="Device_InstallSoftwareValid")
+[2022.06.23-01.43.43:052][867]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.06.23-01.43.43:052][867]PIE: New page: SIE session: TestLevel (Jun 22, 2022, 7:43:43 PM)
+[2022.06.23-01.43.43:052][867]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestLevel
+[2022.06.23-01.43.43:081][867]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028727s)
+[2022.06.23-01.43.43:081][867]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestLevel.TestLevel to /Game/Levels/UEDPIE_0_TestLevel.TestLevel (0.028923s)
+[2022.06.23-01.43.43:082][867]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.06.23-01.43.43:082][867]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.06.23-01.43.43:082][867]LogAIModule: Creating AISystem for world TestLevel
+[2022.06.23-01.43.43:083][867]LogPlayLevel: PIE: World Init took: (0.000914s)
+[2022.06.23-01.43.43:115][867]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2022.06.23-01.43.43:124][867]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2022.06.23-01.43.43:124][867]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.06.23-01.43.43:124][867]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.06.23-01.43.43:124][867]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.06.23-01.43.43:124][867]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.06.23-01.43.43:125][867]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.06.23-01.43.43:125][867]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.06.23-01.43.43:125][867]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.06.23-01.43.43:125][867]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.06.23-01.43.43:125][867]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.06.23-01.43.43:125][867]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.06.23-01.43.43:125][867]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.06.23-01.43.43:128][867]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.06.23-01.43.43:165][867]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- WH-1000XM4 Stereo)
+[2022.06.23-01.43.43:166][867]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.06.23-01.43.43:166][867]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.06.23-01.43.43:167][867]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.06.23-01.43.43:167][867]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2022.06.23-01.43.43:167][867]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2022.06.23-01.43.43:169][867]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2022.06.23-01.43.43:169][867]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2022.06.23-01.43.43:169][867]LogInit: FAudioDevice initialized.
+[2022.06.23-01.43.43:170][867]LogAudio: Display: Audio Device (ID: 15) registered with world 'TestLevel'.
+[2022.06.23-01.43.43:186][867]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2022.06.23-01.43.43:198][867]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2022.06.22-22.43.43
+[2022.06.23-01.43.45:028][867]LogWorld: Bringing up level for play took: 1.840990
+[2022.06.23-01.43.45:031][867]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2022.06.23-01.43.45:074][867]PIE: Server logged in
+[2022.06.23-01.43.45:075][867]PIE: Play in editor total start time 2.028 seconds.
+[2022.06.23-01.44.03:366][893]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestLevel" FILE="../../../../../Source Tree/Plataformer Unreal 5/PlataformGame/Content/Levels/TestLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.06.23-01.44.03:397][893]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2022.06.23-01.44.03:534][893]LogSavePackage: Moving output files for package: /Game/Levels/TestLevel
+[2022.06.23-01.44.03:535][893]LogSavePackage: Moving '../../../../../Source Tree/Plataformer Unreal 5/PlataformGame/Saved/TestLevelDB92835746CE5C074834C8915629718F.tmp' to '../../../../../Source Tree/Plataformer Unreal 5/PlataformGame/Content/Levels/TestLevel.umap'
+[2022.06.23-01.44.03:560][893]AssetCheck: New page: Asset Save: TestLevel
+[2022.06.23-01.44.03:560][893]LogContentValidation: Display: Validating World /Game/Levels/TestLevel.TestLevel
+[2022.06.23-01.44.15:532][577]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.23-01.44.15:532][577]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestLevel
+[2022.06.23-01.44.15:533][577]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2022.06.23-01.44.15:534][577]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.23-01.44.15:556][577]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.06.23-01.44.15:563][577]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.23-01.44.15:597][577]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.06.23-01.44.15:597][577]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2022.06.23-01.44.15:598][577]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2022.06.23-01.44.15:603][577]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.23-01.44.15:607][577]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2022.06.23-01.44.15:668][578]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2022.06.23-01.44.39:042][939]Cmd: DUPLICATE
+[2022.06.23-01.44.39:042][939]Cmd: ACTOR DUPLICATE
+[2022.06.23-01.44.49:695][504]LogDebuggerCommands: Repeating last play command: Simulate
+[2022.06.23-01.44.49:764][504]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.06.23-01.44.49:764][504]PIE: New page: SIE session: TestLevel (Jun 22, 2022, 7:44:49 PM)
+[2022.06.23-01.44.49:764][504]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestLevel
+[2022.06.23-01.44.49:793][504]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028323s)
+[2022.06.23-01.44.49:793][504]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestLevel.TestLevel to /Game/Levels/UEDPIE_0_TestLevel.TestLevel (0.028521s)
+[2022.06.23-01.44.49:793][504]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.06.23-01.44.49:793][504]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.06.23-01.44.49:793][504]LogAIModule: Creating AISystem for world TestLevel
+[2022.06.23-01.44.49:794][504]LogPlayLevel: PIE: World Init took: (0.000852s)
+[2022.06.23-01.44.49:827][504]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2022.06.23-01.44.49:832][504]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2022.06.23-01.44.49:832][504]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.06.23-01.44.49:833][504]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.06.23-01.44.49:833][504]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.06.23-01.44.49:833][504]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.06.23-01.44.49:833][504]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.06.23-01.44.49:833][504]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.06.23-01.44.49:833][504]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.06.23-01.44.49:833][504]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.06.23-01.44.49:833][504]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.06.23-01.44.49:833][504]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.06.23-01.44.49:833][504]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.06.23-01.44.49:836][504]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.06.23-01.44.49:875][504]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- WH-1000XM4 Stereo)
+[2022.06.23-01.44.49:876][504]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.06.23-01.44.49:876][504]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.06.23-01.44.49:876][504]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.06.23-01.44.49:877][504]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2022.06.23-01.44.49:877][504]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2022.06.23-01.44.49:879][504]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2022.06.23-01.44.49:879][504]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2022.06.23-01.44.49:879][504]LogInit: FAudioDevice initialized.
+[2022.06.23-01.44.49:879][504]LogAudio: Display: Audio Device (ID: 16) registered with world 'TestLevel'.
+[2022.06.23-01.44.49:888][504]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2022.06.23-01.44.49:897][504]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2022.06.22-22.44.49
+[2022.06.23-01.44.51:700][504]LogWorld: Bringing up level for play took: 1.812618
+[2022.06.23-01.44.51:703][504]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2022.06.23-01.44.51:704][504]PIE: Server logged in
+[2022.06.23-01.44.51:705][504]PIE: Play in editor total start time 1.941 seconds.
+[2022.06.23-01.44.53:912][609]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.23-01.44.53:912][609]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestLevel
+[2022.06.23-01.44.53:913][609]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2022.06.23-01.44.53:914][609]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.23-01.44.53:934][609]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.06.23-01.44.53:940][609]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.23-01.44.53:970][609]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.06.23-01.44.53:970][609]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2022.06.23-01.44.53:973][609]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2022.06.23-01.44.53:978][609]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.23-01.44.53:982][609]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2022.06.23-01.44.54:038][610]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2022.06.23-01.44.57:091][779]LogDebuggerCommands: Repeating last play command: Simulate
+[2022.06.23-01.44.57:100][779]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.06.23-01.44.57:100][779]PIE: New page: SIE session: TestLevel (Jun 22, 2022, 7:44:57 PM)
+[2022.06.23-01.44.57:100][779]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestLevel
+[2022.06.23-01.44.57:128][779]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026942s)
+[2022.06.23-01.44.57:128][779]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestLevel.TestLevel to /Game/Levels/UEDPIE_0_TestLevel.TestLevel (0.027150s)
+[2022.06.23-01.44.57:128][779]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.06.23-01.44.57:128][779]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.06.23-01.44.57:128][779]LogAIModule: Creating AISystem for world TestLevel
+[2022.06.23-01.44.57:129][779]LogPlayLevel: PIE: World Init took: (0.000994s)
+[2022.06.23-01.44.57:160][779]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2022.06.23-01.44.57:166][779]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2022.06.23-01.44.57:166][779]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.06.23-01.44.57:166][779]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.06.23-01.44.57:166][779]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.06.23-01.44.57:166][779]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.06.23-01.44.57:166][779]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.06.23-01.44.57:166][779]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.06.23-01.44.57:166][779]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.06.23-01.44.57:166][779]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.06.23-01.44.57:167][779]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.06.23-01.44.57:167][779]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.06.23-01.44.57:167][779]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.06.23-01.44.57:169][779]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.06.23-01.44.57:210][779]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- WH-1000XM4 Stereo)
+[2022.06.23-01.44.57:210][779]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.06.23-01.44.57:211][779]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.06.23-01.44.57:211][779]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.06.23-01.44.57:211][779]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2022.06.23-01.44.57:211][779]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2022.06.23-01.44.57:212][779]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2022.06.23-01.44.57:213][779]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2022.06.23-01.44.57:213][779]LogInit: FAudioDevice initialized.
+[2022.06.23-01.44.57:213][779]LogAudio: Display: Audio Device (ID: 17) registered with world 'TestLevel'.
+[2022.06.23-01.44.57:222][779]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2022.06.23-01.44.57:232][779]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2022.06.22-22.44.57
+[2022.06.23-01.44.59:062][779]LogWorld: Bringing up level for play took: 1.838505
+[2022.06.23-01.44.59:064][779]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2022.06.23-01.44.59:066][779]PIE: Server logged in
+[2022.06.23-01.44.59:066][779]PIE: Play in editor total start time 1.966 seconds.
+[2022.06.23-01.45.02:191][939]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.23-01.45.02:191][939]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestLevel
+[2022.06.23-01.45.02:192][939]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2022.06.23-01.45.02:193][939]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.23-01.45.02:216][939]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.06.23-01.45.02:222][939]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.23-01.45.02:252][939]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.06.23-01.45.02:252][939]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2022.06.23-01.45.02:254][939]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2022.06.23-01.45.02:257][939]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.23-01.45.02:261][939]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2022.06.23-01.45.02:319][940]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2022.06.23-01.45.08:905][314]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestLevel" FILE="../../../../../Source Tree/Plataformer Unreal 5/PlataformGame/Content/Levels/TestLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.06.23-01.45.08:935][314]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2022.06.23-01.45.09:075][314]LogSavePackage: Moving output files for package: /Game/Levels/TestLevel
+[2022.06.23-01.45.09:076][314]LogSavePackage: Moving '../../../../../Source Tree/Plataformer Unreal 5/PlataformGame/Saved/TestLevel9A0AE3AA45DF9DA52C7DAAAB1ED9C264.tmp' to '../../../../../Source Tree/Plataformer Unreal 5/PlataformGame/Content/Levels/TestLevel.umap'
+[2022.06.23-01.45.09:119][314]AssetCheck: New page: Asset Save: TestLevel
+[2022.06.23-01.45.09:119][314]LogContentValidation: Display: Validating World /Game/Levels/TestLevel.TestLevel
+[2022.06.23-01.45.23:869][110]Cmd: TRANSACTION UNDO
+[2022.06.23-01.45.23:873][110]LogEditorTransaction: Undo Move Elements
+[2022.06.23-01.45.27:412][285]LogDebuggerCommands: Repeating last play command: Simulate
+[2022.06.23-01.45.27:423][285]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.06.23-01.45.27:423][285]PIE: New page: SIE session: TestLevel (Jun 22, 2022, 7:45:27 PM)
+[2022.06.23-01.45.27:423][285]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestLevel
+[2022.06.23-01.45.27:450][285]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027291s)
+[2022.06.23-01.45.27:450][285]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestLevel.TestLevel to /Game/Levels/UEDPIE_0_TestLevel.TestLevel (0.027485s)
+[2022.06.23-01.45.27:450][285]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.06.23-01.45.27:451][285]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.06.23-01.45.27:451][285]LogAIModule: Creating AISystem for world TestLevel
+[2022.06.23-01.45.27:451][285]LogPlayLevel: PIE: World Init took: (0.000841s)
+[2022.06.23-01.45.27:485][285]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2022.06.23-01.45.27:495][285]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2022.06.23-01.45.27:495][285]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.06.23-01.45.27:495][285]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.06.23-01.45.27:495][285]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.06.23-01.45.27:495][285]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.06.23-01.45.27:495][285]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.06.23-01.45.27:495][285]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.06.23-01.45.27:496][285]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.06.23-01.45.27:496][285]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.06.23-01.45.27:496][285]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.06.23-01.45.27:496][285]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.06.23-01.45.27:496][285]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.06.23-01.45.27:498][285]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.06.23-01.45.27:539][285]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- WH-1000XM4 Stereo)
+[2022.06.23-01.45.27:539][285]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.06.23-01.45.27:539][285]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.06.23-01.45.27:539][285]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.06.23-01.45.27:539][285]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2022.06.23-01.45.27:539][285]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2022.06.23-01.45.27:542][285]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2022.06.23-01.45.27:542][285]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2022.06.23-01.45.27:542][285]LogInit: FAudioDevice initialized.
+[2022.06.23-01.45.27:542][285]LogAudio: Display: Audio Device (ID: 18) registered with world 'TestLevel'.
+[2022.06.23-01.45.27:555][285]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2022.06.23-01.45.27:564][285]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2022.06.22-22.45.27
+[2022.06.23-01.45.29:402][285]LogWorld: Bringing up level for play took: 1.845796
+[2022.06.23-01.45.29:404][285]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2022.06.23-01.45.29:406][285]PIE: Server logged in
+[2022.06.23-01.45.29:406][285]PIE: Play in editor total start time 1.984 seconds.
+[2022.06.23-01.45.38:321][800]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.23-01.45.38:321][800]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestLevel
+[2022.06.23-01.45.38:322][800]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2022.06.23-01.45.38:323][800]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.23-01.45.38:344][800]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.06.23-01.45.38:350][800]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.23-01.45.38:379][800]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.23-01.45.38:379][800]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2022.06.23-01.45.38:382][800]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2022.06.23-01.45.38:390][800]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2022.06.23-01.45.38:445][801]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2022.06.23-01.45.58:012][969]BlueprintLog: New page: Compile BP_Block
+[2022.06.23-01.45.58:066][969]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2022.06.23-01.45.58:170][969]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Block" FILE="../../../../../Source Tree/Plataformer Unreal 5/PlataformGame/Content/Blueprints/BP_Block.uasset" SILENT=true
+[2022.06.23-01.45.58:184][969]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Block
+[2022.06.23-01.45.58:185][969]LogSavePackage: Moving '../../../../../Source Tree/Plataformer Unreal 5/PlataformGame/Saved/BP_Block62FC8D554B3EA6B5BF7EA592556BEEB9.tmp' to '../../../../../Source Tree/Plataformer Unreal 5/PlataformGame/Content/Blueprints/BP_Block.uasset'
+[2022.06.23-01.45.58:203][969]AssetCheck: New page: Asset Save: BP_Block
+[2022.06.23-01.45.58:204][969]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Block.BP_Block
+[2022.06.23-01.45.59:749][ 58]LogDebuggerCommands: Repeating last play command: Simulate
+[2022.06.23-01.45.59:759][ 58]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.06.23-01.45.59:759][ 58]PIE: New page: SIE session: TestLevel (Jun 22, 2022, 7:45:59 PM)
+[2022.06.23-01.45.59:759][ 58]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestLevel
+[2022.06.23-01.45.59:785][ 58]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026509s)
+[2022.06.23-01.45.59:785][ 58]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestLevel.TestLevel to /Game/Levels/UEDPIE_0_TestLevel.TestLevel (0.026674s)
+[2022.06.23-01.45.59:785][ 58]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.06.23-01.45.59:785][ 58]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.06.23-01.45.59:786][ 58]LogAIModule: Creating AISystem for world TestLevel
+[2022.06.23-01.45.59:786][ 58]LogPlayLevel: PIE: World Init took: (0.000786s)
+[2022.06.23-01.45.59:819][ 58]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2022.06.23-01.45.59:822][ 58]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2022.06.23-01.45.59:822][ 58]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.06.23-01.45.59:822][ 58]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.06.23-01.45.59:822][ 58]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.06.23-01.45.59:822][ 58]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.06.23-01.45.59:822][ 58]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.06.23-01.45.59:822][ 58]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.06.23-01.45.59:822][ 58]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.06.23-01.45.59:822][ 58]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.06.23-01.45.59:823][ 58]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.06.23-01.45.59:823][ 58]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.06.23-01.45.59:823][ 58]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.06.23-01.45.59:825][ 58]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.06.23-01.45.59:865][ 58]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- WH-1000XM4 Stereo)
+[2022.06.23-01.45.59:865][ 58]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.06.23-01.45.59:865][ 58]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.06.23-01.45.59:866][ 58]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.06.23-01.45.59:866][ 58]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2022.06.23-01.45.59:866][ 58]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2022.06.23-01.45.59:868][ 58]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2022.06.23-01.45.59:868][ 58]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2022.06.23-01.45.59:868][ 58]LogInit: FAudioDevice initialized.
+[2022.06.23-01.45.59:868][ 58]LogAudio: Display: Audio Device (ID: 19) registered with world 'TestLevel'.
+[2022.06.23-01.45.59:883][ 58]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2022.06.23-01.45.59:892][ 58]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2022.06.22-22.45.59
+[2022.06.23-01.46.01:703][ 58]LogWorld: Bringing up level for play took: 1.820026
+[2022.06.23-01.46.01:706][ 58]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2022.06.23-01.46.01:707][ 58]PIE: Server logged in
+[2022.06.23-01.46.01:708][ 58]PIE: Play in editor total start time 1.95 seconds.
+[2022.06.23-01.46.10:682][577]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.23-01.46.10:682][577]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestLevel
+[2022.06.23-01.46.10:683][577]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2022.06.23-01.46.10:684][577]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.23-01.46.10:699][577]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.06.23-01.46.10:705][577]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.23-01.46.10:734][577]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.06.23-01.46.10:735][577]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2022.06.23-01.46.10:737][577]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2022.06.23-01.46.10:741][577]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.23-01.46.10:744][577]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2022.06.23-01.46.10:804][578]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2022.06.23-01.46.20:053][ 98]LogDebuggerCommands: Repeating last play command: Simulate
+[2022.06.23-01.46.20:063][ 98]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.06.23-01.46.20:063][ 98]PIE: New page: SIE session: TestLevel (Jun 22, 2022, 7:46:20 PM)
+[2022.06.23-01.46.20:064][ 98]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestLevel
+[2022.06.23-01.46.20:090][ 98]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026798s)
+[2022.06.23-01.46.20:090][ 98]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestLevel.TestLevel to /Game/Levels/UEDPIE_0_TestLevel.TestLevel (0.026981s)
+[2022.06.23-01.46.20:090][ 98]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.06.23-01.46.20:091][ 98]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.06.23-01.46.20:091][ 98]LogAIModule: Creating AISystem for world TestLevel
+[2022.06.23-01.46.20:091][ 98]LogPlayLevel: PIE: World Init took: (0.000799s)
+[2022.06.23-01.46.20:121][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2022.06.23-01.46.20:124][ 98]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2022.06.23-01.46.20:124][ 98]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.06.23-01.46.20:125][ 98]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.06.23-01.46.20:125][ 98]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.06.23-01.46.20:125][ 98]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.06.23-01.46.20:125][ 98]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.06.23-01.46.20:125][ 98]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.06.23-01.46.20:125][ 98]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.06.23-01.46.20:125][ 98]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.06.23-01.46.20:125][ 98]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.06.23-01.46.20:125][ 98]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.06.23-01.46.20:125][ 98]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.06.23-01.46.20:128][ 98]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.06.23-01.46.20:165][ 98]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- WH-1000XM4 Stereo)
+[2022.06.23-01.46.20:165][ 98]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.06.23-01.46.20:165][ 98]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.06.23-01.46.20:165][ 98]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.06.23-01.46.20:166][ 98]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2022.06.23-01.46.20:166][ 98]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2022.06.23-01.46.20:168][ 98]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2022.06.23-01.46.20:168][ 98]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2022.06.23-01.46.20:168][ 98]LogInit: FAudioDevice initialized.
+[2022.06.23-01.46.20:168][ 98]LogAudio: Display: Audio Device (ID: 20) registered with world 'TestLevel'.
+[2022.06.23-01.46.20:178][ 98]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2022.06.23-01.46.20:187][ 98]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2022.06.22-22.46.20
+[2022.06.23-01.46.21:994][ 98]LogWorld: Bringing up level for play took: 1.815088
+[2022.06.23-01.46.21:996][ 98]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2022.06.23-01.46.21:998][ 98]PIE: Server logged in
+[2022.06.23-01.46.21:998][ 98]PIE: Play in editor total start time 1.935 seconds.
+[2022.06.23-01.46.26:141][327]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.23-01.46.26:141][327]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestLevel
+[2022.06.23-01.46.26:142][327]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2022.06.23-01.46.26:143][327]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.23-01.46.26:163][327]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.06.23-01.46.26:169][327]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.23-01.46.26:198][327]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.23-01.46.26:199][327]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2022.06.23-01.46.26:201][327]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2022.06.23-01.46.26:208][327]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2022.06.23-01.46.26:266][328]LogPlayLevel: Display: Destroying online subsystem :Context_32
